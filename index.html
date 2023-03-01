@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site Yarro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200famille=Josefin+Sans:wght@200;300;400;500;600;700&=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+       
+       
+        <a href="#" class="logo">Portfolio</a>
+    <div>
+        <ul class="nav-bar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Apropos.html">Apropos</a></li>
+            <li><a href="Projets.html">Projets</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+        <img src="menu.png" alt="menu" class="menu">
+    </header>
+    <div class="container">
+        <div class="left">
+            <h3>Salut, je suis</h3>
+            <h3>Seydou Yarro</h3>
+            <h3>Développeur graphique designer/web</h3>
+            <h3>Etudiant: Licence 2 à L'ESCT</h3> <br> <br>
+            <h3>Lorem ipsum dolor sit, amet consectetur</h3>
+            <h3>adipisicing elit. Consequuntur, deleniti </h3>
+            <h3>maiores, esse totam nemo</h3> <br> <br>
+            <a href="CV2.pdf" class="btn">Télécharger mon CV</a>
+   
+        </div>
+        <div class="right">
+            <img src="jujgx.png" alt="ma photo de profil">
+         
+        </div>
+    </div>
+
+    <script>
+        const menu = document.querySelector(".menu")
+        const navbar = document.querySelector(".nav-bar")
+ 
+        menu.addEventListener('click',()=>{
+        navbar .classList.toggle('mobile-menu')
+        })
+</script>
+</body>
+</html>
